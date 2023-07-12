@@ -1,0 +1,128 @@
+* {
+  background-color: #f2e3e3;
+}
+
+.todo-list {
+  margin-top: 20px;
+  margin-left: 600px;
+}
+
+.todo-list h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.todo-list p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.todo-list button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 14px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.todo-list button:hover {
+  background-color: #45a049;
+}
+
+.todo-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-list li {
+  max-width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+}
+
+.todo-list li button {
+  background-color: #f44336;
+  color: #fff;
+
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin-top: 6px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.todo-list li button:hover {
+  background-color: #e53935;
+}
+
+.todo-list .modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-list .modal-content {
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.todo-list .modal-content h2 {
+  margin-top: 0;
+}
+
+.todo-list .modal-content form {
+  margin-bottom: 10px;
+}
+
+.todo-list .modal-content input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.todo-list .modal-content button {
+  margin-top: 5px;
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: #fff;
+
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.todo-list .modal-content button:hover {
+  background-color: #45a049;
+}
+
+.todo-list .modal-content button[type="submit"] {
+  background-color: #2196f3;
+}
+
+.todo-list .modal-content button[type="submit"]:hover {
+  background-color: #0f9ddf;
+}
+
+.todo-list .modal-content button[type="button"] {
+  background-color: #f44336;
+}
+
+.todo-list .modal-content button[type="button"]:hover {
+  background-color: #e53935;
+}
