@@ -11,6 +11,9 @@ const TodoList = () => {
   const [selectedTodo, setSelectedTodo] = useState(null);
 
   const handleAddTodo = () => {
+    setEditMode(false);
+    setSelectedTodo(null);
+    setTask('');
     setShowModal(true);
   };
 
